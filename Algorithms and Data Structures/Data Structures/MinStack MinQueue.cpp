@@ -46,7 +46,7 @@ struct minQueue{
 	
 	void pop() {
 		if (s1.empty()) {
-			while (s2.empty()) {
+			while (!s2.empty()) {
 				int x = s2.top().first;
 				int mini = s1.empty()? x : min(x, s1.top().second);
 				s1.push({x, mini}); 
@@ -60,6 +60,16 @@ struct minQueue{
 };
 
 int main() {
-	int x; cin >> x;
-	assert(x == 1);
+	int n; cin >> n;
+	int x;
+	minQueue q;
+	for (int i = 0; i < n; i++) {
+		cin >> x;
+		q.push(x);
+	}
+	
+	while (!q.isEmpty()) {
+		cout << q.getMin() << "\n";
+		q.pop();
+	}
 }
