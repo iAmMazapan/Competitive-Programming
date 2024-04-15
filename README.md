@@ -7,7 +7,7 @@ Algorithms, data structures and solutions to online judge problems
 - [MinIEEExtreme 2023](https://www.youtube.com/watch?v=HwnuKg2RVxM&list=PLE-jk85G54lVMTFl9HQhVGZOhvaHt_SyV).
 - [CSES Problem Set](https://cses.fi/problemset/)
 
-Autor: @Bashca
+Thanks to @Bashca
 - topcoder math:
 http://bit.ly/3vXRzKT
 # Number Theory
